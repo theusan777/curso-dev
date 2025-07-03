@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Moodcake' ;
+    src: url(./Moodcake.otf),
+    url(./Moodcake.ttf);
+}
+
+h1{
+    font-family:'Moodcake';
+    font-weight: 100;
+}
+
