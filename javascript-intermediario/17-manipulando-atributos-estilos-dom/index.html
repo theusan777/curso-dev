@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Dom</title>
+
+    <style>
+    .font-grande {
+        font-size: 30px;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Manipulando Estilos</h1>
+
+    <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar Cor De Fundo do Primeiro Post</button>
+
+    <br><br>
+    
+    <button onclick="aumentarFonteSegundoPost()">Aumentar a fonte</button>
+
+    <article class="post">
+        <p><strong>Matheus Santos</strong><span>@theusAN - 10min</span></p>
+        <p class="texto-post">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure hic, incidunt exercitationem fugit unde libero quasi quas quo, illum eius ratione! Est nobis quas necessitatibus quo quaerat voluptatibus nam voluptas.
+        </p>
+        <br>
+    </article>
+
+    <article class="post">
+        <p><strong>Matheus Santos</strong><span>@theusAN - 10min</span></p>
+        <p class="texto-post">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure hic, incidunt exercitationem fugit unde libero quasi quas quo, illum eius ratione! Est nobis quas necessitatibus quo quaerat voluptatibus nam voluptas.
+        </p>
+    </article>
+    
+    <h2>Manipulando atributos</h2>
+
+    <button onclick="marcarRadio('F')">Marcar radio feminino</button>
+
+    <button onclick="marcarRadio('M')">Marcar radio masculino</button>
+
+    <br><br>
+
+    Masculino<input type="radio" name="genero" id="genero-masculino"> 
+
+    Feminino<input type="radio" name="genero" id="genero-feminino">
+    
+    <script src="index.js"></script>
+</body>
+</html>
+   

@@ -1,0 +1,15 @@
+<filmes>
+    <filme id="1">
+        <titulo>O Poderoso Chefão</titulo>
+        <sinopse>Um drama sobre a máfia italiana nos Estados Unidos</sinopse>
+        <ano>1972</ano>
+        <diretor>Francis Ford Coppola</diretor> 
+        <genero>Crime, Drama</genero>
+        <elenco>
+            <ator>Al Pacino</ator>
+            <ator>Marlon Brando</ator>
+            <ator>James Caan</ator>
+        </elenco>
+    </filme>
+</filmes>
+        
